@@ -1,0 +1,11 @@
+field_name,description
+route,"""Friendly"" route code that joins with PAAC geospatial data."
+ridership_route_code,Route code for joining with ridership data.
+route_full_name,Full route name as it would appear on the headsign of the bus/light rail vehicle.
+current_garage,The garage that the bus route operates out of. Route 64 alternates between East Liberty and West Mifflin garage; its OTP is averaged in this dataset.
+mode,"Transit mode: bus, light rail (the T), or incline."
+month_start,The first day of the month in YYYY-MM-DD format.
+year_month,The year-month key in YYYYMM format.
+day_type,"Weekday, Saturday, or Sunday/Holiday service. PAAC routes and schedules vary based on the service day. PAAC provides Sunday service on the following holidays: New Years Day, Memorial Day, Fourth of July, Labor Day, Thanksgiving, and Christmas."
+on_time_percent,On-time percent: The fraction of timepoints that the bus/light rail vehicle departed on time from the stop or station. (A value of 1 represents a 100% on-time percentage.)
+data_source,PAAC switched OTP processing systems from UTA to Clever in late 2018. The Clever system processes more data and gives a more accurate picture of OTP.

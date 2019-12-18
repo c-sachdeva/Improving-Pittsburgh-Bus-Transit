@@ -1,0 +1,16 @@
+Field Name,Response Type,Description
+WPRDC ID,Given ,Unique Identifier Developed by GBA 
+HomeZipCode,Open-Ended Response,Zip Code Location of Trip Origin 
+Destination ,Multipul Choice ,Neighborhood Location of Trip Destination 
+Other,Open-Ended Response,Other Neighborhood Locations Than Provided Choices  
+MilesOneWay,Calculation,Centroid Distance from Zip Code Origin to Either Downtown (Market Square) or Oakland (Cathedral of Learning.  Trips Ending in Neighborhood Other Than Downtown and Oakland Have No Calculated Distance
+CommuteDays ,Multipul Choice ,Number or Commute Days 
+PrimaryMode ,Multipul Choice ,Primary Commute Mode Used 
+PrimaryModePercentCommute,Multipul Choice ,Primary Mode Percentage of Weekly Commute 
+PrimaryModeNumberTrips,Calculation,"Number of Weekly Trips, Calculated Using Number of Commute Days and Primary Percentage of Total Weekly Commute "
+SecondaryMode,Multipul Choice ,Secondary Commute Mode Used 
+SecondaryModePercentCommute,Multipul Choice ,Secondary Mode Percentage of Weekly Commute 
+SecondaryModeNumberTrips,Calculation,"Number of Weekly Trips, Calculated Using Number of Commute Days and Secondary Percentage of Total Weekly Commute "
+TertiaryMode,Multipul Choice ,Tertiary Commute Mode Used
+TertiaryModePercentCommute,Multipul Choice ,Tertiary Mode Percentage of Weekly Commute
+TertiaryModeNumberTrips,Calculation,"Number of Weekly Trips, Calculated Using Number of Commute Days and Tertiary Percentage of Total Weekly Commute "
